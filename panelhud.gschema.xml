@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.panelhud"
+          path="/org/gnome/shell/extensions/panelhud/">
+    <key name="note" type="s">
+      <default>'No Note'</default>
+      <summary>PanelHUD Display Text</summary>
+      <description>Text to display on the panel</description>
+    </key>
+  </schema>
+</schemalist>

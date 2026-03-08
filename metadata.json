@@ -1,0 +1,7 @@
+{
+  "uuid": "panelhud@teak",
+  "name": "Panel HUD",
+  "description": "Displays costumizable information on the panel.",
+  "shell-version": ["44", "45", "46"],
+  "version": 1
+}
