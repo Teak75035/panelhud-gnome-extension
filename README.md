@@ -27,8 +27,7 @@ rm -rf ./panelhud-gnome-extension
 ```
 - Reload GNOME
   Alt + F2, then r (log out for wayland)
-- Check
-  Check if extensions are enabled in GNOME Extensions.
+- Check if extensions are enabled in GNOME Extensions.
 
 # Usage
 Change the text via HTTP `http://127.0.0.1:1234?ctt=`
