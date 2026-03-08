@@ -9,10 +9,21 @@ You can easily install this extension. (Using Ubuntu as an example)
 ```
 git clone https://github.com/Teak75035/panelhud-gnome-extension.git
 ```
+- Install to path
+```
+cd ./panelhud-gnome-extension
+sudo mkdir ~/.local/share/gnome-shell/extension s/panelhud@teak
+cp ./* ~/.local/share/gnome-shell/extension s/panelhud@teak
+```
 - Compile schema
 ```
 cp ./panelhud.gschema.xml ~/.local/share/glib-2.0/schemas/
 glib-compile-schemas ~/.local/share/glib-2.0/schemas/
+```
+- Clean up (if required)
+```
+cd ../
+rm -rf ./panelhud-gnome-extension
 ```
 - Reload GNOME
   Alt + F2, then r (log out for wayland)
@@ -22,8 +33,9 @@ glib-compile-schemas ~/.local/share/glib-2.0/schemas/
 # Usage
 Change the text via HTTP `http://127.0.0.1:1234?ctt=`
 
-# Bug
+# Bug & advice
 You tell me via issue. (I tried it with no problems)
 
 # Special Thanks
-- Panel Note [https://github.com/GittyMac/PanelNote]
+- Panel Note (Inspiration)
+[https://github.com/GittyMac/PanelNote]
